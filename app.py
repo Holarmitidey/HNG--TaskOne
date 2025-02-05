@@ -40,6 +40,10 @@ def get_fun_fact(n):
     except requests.RequestException:
         return f"{n} is a fascinating number."
 
+@app.route("/")
+def home():
+    return jsonify({"message": "Flask API is working!"})
+
 @app.route('/api/classify-number', methods=['GET'])
 def classify_number():
     number = request.args.get('number')
