@@ -74,7 +74,7 @@ print(response.json())
 ## Deployment
 The API is deployed and publicly accessible at:
 ```
-<your-public-api-url>
+[Public URL](https://hng-taskone-b41s.onrender.com)
 ```
 
 ## Backlink
